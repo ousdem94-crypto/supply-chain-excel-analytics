@@ -31,24 +31,47 @@ Il comprend notamment des informations sur les produits, les entrepôts, les fou
 - **Power Query** : importation, nettoyage, contrôle de qualité et préparation des données, ainsi que réalisation de certaines étapes de l’EDA 01 — Performance SKU.
 - GitHub pour la documentation et le suivi des versions du projet
 
-## 6. Analyses prévues
+## 6. Analyses métier
 
-| Module | Objectif |
-|---|---|
-| EDA 01 — Performance SKU | Étudier les ventes, le chiffre d'affaires et les marges |
-| EDA 02 — Inventaire | Examiner les niveaux de stock et les indicateurs d'inventaire |
-| EDA 03 — Prévisions de demande | Étudier les écarts entre ventes réelles et prévisions |
-| EDA 04 — Fournisseurs | Comparer les délais d'approvisionnement |
-| EDA 05 — Entrepôts et régions | Comparer les volumes vendus selon les zones et les entrepôts |
-| EDA 06 — Risques Supply Chain | Étudier les indicateurs de risque liés aux stocks |
+| Module | Objectif | Statut |
+|---|---|---|
+| EDA 01 — Performance SKU | Étudier les ventes, le chiffre d'affaires et les marges | Première analyse publiée |
+| EDA 02 — Inventaire | Examiner les niveaux de stock et les indicateurs d'inventaire | À réaliser |
+| EDA 03 — Prévisions de demande | Étudier les écarts entre ventes réelles et prévisions | À réaliser |
+| EDA 04 — Fournisseurs | Comparer les délais d'approvisionnement | À réaliser |
+| EDA 05 — Entrepôts et régions | Comparer les volumes vendus selon les zones et les entrepôts | À réaliser |
+| EDA 06 — Risques Supply Chain | Étudier les indicateurs de risque liés aux stocks | À réaliser |
 
-## 7. Démarche de travail
+## 7. EDA 01 — Performance commerciale des SKU
+
+### Question métier
+
+**Quels SKU contribuent le plus au chiffre d'affaires, et quelle est la concentration du portefeuille ?**
+
+### Méthode
+
+- Calcul du chiffre d'affaires, du coût des marchandises vendues et de la marge brute par SKU.
+- Classement des 50 SKU selon leur chiffre d'affaires.
+- Calcul de la part de chiffre d'affaires et de la part cumulée.
+- Utilisation d'une analyse de Pareto pour examiner la concentration du chiffre d'affaires.
+- Comparaison du classement par chiffre d'affaires avec celui par marge brute.
+
+### Premiers enseignements
+
+- **SKU_38, SKU_40 et SKU_11** figurent parmi les SKU les plus contributeurs au chiffre d'affaires.
+- Il faut cumuler **38 SKU sur 50** pour atteindre environ **80 % du chiffre d'affaires**. Le chiffre d'affaires est donc réparti entre une part importante du portefeuille, plutôt que concentré uniquement sur quelques références.
+- Le classement par chiffre d'affaires ne suffit pas à juger la rentabilité : il doit être complété par l'analyse de la marge brute.
+- Le classement et le graphique de Pareto servent à prioriser les références à examiner, sans remplacer l'analyse des coûts, des marges et des contraintes opérationnelles.
+
+**Livrable :** [EDA_01_Performance_SKU.xlsx](./EDA_01_Performance_SKU.xlsx)
+
+## 8. Démarche de travail
 
 Le projet est réalisé progressivement. Chaque module est analysé, vérifié et documenté avant sa publication.
 
-Les conclusions finales seront ajoutées au fur et à mesure de la validation des résultats. Le tableau de bord global sera développé dans une étape ultérieure.
+Les conclusions sont ajoutées au fur et à mesure de la validation des résultats. Le tableau de bord global sera développé dans une étape ultérieure.
 
-## 8. Statut du projet
+## 9. Statut du projet
 
 **En cours de réalisation.**
 
