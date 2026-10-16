@@ -67,13 +67,13 @@ Il comprend notamment des informations sur les produits, les entrepôts, les fou
 
 #### Pareto du chiffre d'affaires par SKU
 
-![Pareto du chiffre d'affaires par SKU](./graphique_pareto.PNG)
+![Pareto du chiffre d'affaires par SKU](./images/graphique_pareto.PNG)
 
 Le graphique compare le chiffre d'affaires individuel de chaque SKU (barres) à la part cumulée du chiffre d'affaires (courbe).
 
 #### Tableau de performance des SKU
 
-![Tableau de performance des SKU](./performnce_sku.PNG)
+![Tableau de performance des SKU](./images/performnce_sku.PNG)
 
 Le tableau présente notamment le chiffre d'affaires, le coût des marchandises vendues, la marge brute, le rang selon le chiffre d'affaires, la part cumulée, la classification ABC et l'écart entre les rangs de chiffre d'affaires et de marge.
 
