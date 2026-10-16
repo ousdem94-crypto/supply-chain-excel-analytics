@@ -63,7 +63,21 @@ Il comprend notamment des informations sur les produits, les entrepôts, les fou
 - Le classement par chiffre d'affaires ne suffit pas à juger la rentabilité : il doit être complété par l'analyse de la marge brute.
 - Le classement et le graphique de Pareto servent à prioriser les références à examiner, sans remplacer l'analyse des coûts, des marges et des contraintes opérationnelles.
 
-**Livrable :** [EDA_01_Performance_SKU.xlsx](./EDA_01_Performance_SKU.xlsx)
+### Visuels de l'analyse
+
+#### Pareto du chiffre d'affaires par SKU
+
+![Pareto du chiffre d'affaires par SKU](./graphique_pareto.PNG)
+
+Le graphique compare le chiffre d'affaires individuel de chaque SKU (barres) à la part cumulée du chiffre d'affaires (courbe).
+
+#### Tableau de performance des SKU
+
+![Tableau de performance des SKU](./performnce_sku.PNG)
+
+Le tableau présente notamment le chiffre d'affaires, le coût des marchandises vendues, la marge brute, le rang selon le chiffre d'affaires, la part cumulée, la classification ABC et l'écart entre les rangs de chiffre d'affaires et de marge.
+
+**Classeur Excel :** [EDA_01_Performance_SKU.xlsx](./EDA_01_Performance_SKU.xlsx)
 
 ## 8. Démarche de travail
 
